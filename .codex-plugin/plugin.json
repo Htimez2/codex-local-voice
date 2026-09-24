@@ -1,0 +1,11 @@
+{
+  "name": "codex-local-voice",
+  "version": "0.1.0",
+  "description": "Hands-free local voice for Codex: faster-whisper STT + F5-TTS TTS, no OpenAI voice.",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Codex Local Voice",
+    "shortDescription": "Local hands-free voice (Whisper + F5-TTS)",
+    "category": "productivity"
+  }
+}

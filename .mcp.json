@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "local-voice": {
+      "command": "python",
+      "args": ["server.py"],
+      "env": {
+        "WHISPER_MODEL": "small",
+        "WHISPER_DEVICE": "auto"
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+# Drop into ~/.codex/config.toml (Windows: %USERPROFILE%\.codex\config.toml)
+# or run: codex mcp add local-voice -- python server.py
+
+[mcp_servers.local-voice]
+command = "python"
+args = ["C:/path/to/codex-local-voice/server.py"]
+env = { WHISPER_MODEL = "small", WHISPER_DEVICE = "auto", SILENCE_MS = "700" }
+startup_timeout_sec = 30

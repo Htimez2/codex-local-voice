@@ -1,0 +1,8 @@
+mcp>=1.2.0
+faster-whisper>=1.0.0
+sounddevice>=0.4.6
+numpy>=1.26
+soundfile>=0.12.1
+scipy>=1.11
+# F5-TTS is heavy; install separately if you want TTS:
+# pip install f5-tts
